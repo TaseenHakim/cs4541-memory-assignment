@@ -1,0 +1,8 @@
+all: memory.c
+	gcc -std=c99 -Wall -o memory memory.c
+
+run: memory	
+	./memory
+
+clean:	
+	rm -f memory
